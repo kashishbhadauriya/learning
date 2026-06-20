@@ -1,0 +1,6 @@
+Can this be sorted by rotations?
+for(int i=0;i<n;i++){
+    if(nums[(startidx+i)%n] != i)
+        return false;
+}
+return true;
