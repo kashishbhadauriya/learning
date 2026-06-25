@@ -4,3 +4,13 @@ for(int i=0;i<n;i++){
         return false;
 }
 return true;
+
+
+standard way to check whether two intervals overlap:-
+if (max(firstfirst, secondfirst) <= min(firstsecond, secondsecond))
+ex-[2, 8]
+[5,10]
+
+The overlap starts at 5, not 2.
+
+max(2,5) = 5
